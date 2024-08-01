@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+.root {
+    --font-blog: "Inter", sans-serif;
+    --font-footer: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+}
