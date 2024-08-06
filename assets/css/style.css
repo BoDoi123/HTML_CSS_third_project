@@ -61,8 +61,6 @@ img {
     font-weight: 600;
     line-height: 1.2; /* 120% */
     letter-spacing: -1px;
-
-    margin-bottom: 18px;
 }
 
 .section-desc {
@@ -73,7 +71,7 @@ img {
 
     width: 40%;
 
-    margin: 0 auto;
+    margin-top: 18px;
 }
 
 /* ==================> Header <================== */
@@ -235,6 +233,8 @@ img {
 .service__heading,
 .service__desc {
     text-align: center;
+
+    margin: 18px auto 0;
 }
 
 /* Service Row */
@@ -312,4 +312,66 @@ img {
 
 .service__btn {
     margin-top: 55px;
+}
+
+/* ==================> Work <================== */
+.work {
+    background: #f6fbff;
+
+    padding: 100px 0;
+}
+
+.work__list {
+    margin-top: 86px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.work-item {
+    padding: 43px 42px;
+
+    border: 16px solid #eaf6ff;
+    border-radius: 4px;
+
+    transition: 0.25s;
+}
+
+.work-item:hover {
+    border-color: #2e80ce;
+
+    transform: translateY(-16px);
+}
+
+.work-item__icon {
+    width: 19.46%;
+}
+
+.work-item__heading {
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38; /* 138.462% */
+
+    margin-top: 18px;
+}
+
+.work-item__desc {
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+
+    margin-top: 28px;
+}
+
+.work-item__more {
+    color: #2e80ce;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+
+    display: inline-block;
+    margin-top: 18px;
 }
