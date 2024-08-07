@@ -552,3 +552,63 @@ button {
 
     justify-content: center;
 }
+
+/* ==================> Install <================== */
+.install__inner {
+    height: 427px;
+
+    padding: 0 70px;
+    margin: 180px 0 85px;
+
+    border-radius: 4px;
+    background: #2e80ce;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+/* Install Left */
+.install__img {
+    height: 522px;
+
+    background: -238.818px -60.273px / 267.943% 129.736% no-repeat;
+
+    display: block;
+
+    position: absolute;
+    bottom: 0;
+}
+
+/* Install Right */
+.install__content {
+    max-width: 56.89%;
+}
+
+.install__heading {
+    padding-right: 16.56%;
+
+    color: #fff;
+}
+
+.install__desc {
+    width: 100%;
+
+    color: #fff;
+}
+
+.install__row {
+    margin-top: 38px;
+
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.install__btn-img {
+    border-radius: 5px;
+
+    display: block;
+}
