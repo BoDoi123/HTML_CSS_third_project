@@ -253,6 +253,8 @@ img {
 
     border-radius: 12px;
     background: lightgray 0px -1.3px / 100% 149.93% no-repeat;
+
+    display: flex;
 }
 
 /* Service Right */
@@ -374,4 +376,59 @@ img {
 
     display: inline-block;
     margin-top: 18px;
+}
+
+/* ==================> About <================== */
+.about {
+    margin-top: 85px;
+    padding: 85px 0 206px;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* About Left */
+.about__media {
+    width: 48.72%;
+}
+
+.about__img {
+    position: relative;
+}
+
+.about__img--large {
+    display: flex;
+
+    width: 89.8%;
+
+    border-radius: 6px;
+    background: lightgray -1.5px 0px / 108.398% 100% no-repeat;
+    box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+}
+
+.about__img--small {
+    width: 58.25%;
+
+    border-radius: 6px;
+    background: lightgray 50% / cover no-repeat;
+
+    position: absolute;
+    top: 121px;
+    left: 238px;
+}
+
+/* About Right */
+.about-content {
+    width: 40.17%;
+}
+
+.about-content__desc {
+    width: 100%;
+}
+
+.about-content__btn {
+    margin-top: 38px;
 }
