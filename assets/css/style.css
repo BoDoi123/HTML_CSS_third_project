@@ -619,7 +619,7 @@ button {
 .blog {
     padding: 85px 0;
 
-    background: #FFF;
+    background: #fff;
 }
 
 .blog__inner {
@@ -727,10 +727,49 @@ button {
 
     margin-top: 12px;
 
-    color: #10375C;
+    color: #10375c;
     font-size: 1.4rem;
 }
 
 .blog-item__more:hover {
-    color: #2E80CE;
+    color: #2e80ce;
+}
+
+/* ==================> Appointment <================== */
+.appointment {
+    margin: 85px 0;
+}
+
+.appointment__inner {
+    text-align: center;
+
+    background: #f6fbff;
+
+    padding: 100px 178px;
+}
+
+.appointment__heading::after {
+    content: "";
+
+    display: block;
+    margin: 18px auto 0;
+
+    width: 136px;
+    height: 2px;
+
+    background: #2e80ce;
+}
+
+.appointment__desc {
+    width: 75.8%;
+
+    display: inline-block;
+
+    color: #575f66;
+    font-size: 1.6rem;
+    line-height: 1.75; /* 175% */
+}
+
+.appointment__btn {
+    margin-top: 38px;
 }
