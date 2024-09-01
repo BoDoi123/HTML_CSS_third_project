@@ -35,6 +35,9 @@
             rel="stylesheet"
         />
 
+        <!-- Animation - AOS Library -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
         <!-- style CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
 
@@ -133,6 +136,7 @@
                                 src="./assets/img/service_section/dentist.jpg"
                                 alt="Our services"
                                 class="service__img"
+                                data-aos="zoom-in-down"
                             />
                         </figure>
 
@@ -704,5 +708,11 @@
                 </div>
             </div>
         </footer>
+
+        <!-- JS animation -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
